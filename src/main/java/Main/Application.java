@@ -12,7 +12,7 @@ public class Application {
     }
 
     public void start(){
-        System.out.println("Start of application");
+        System.out.println("***************** Start of application ******************");
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the code of the Account :");
         Long code = scanner.nextLong();
