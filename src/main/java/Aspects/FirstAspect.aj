@@ -12,9 +12,9 @@ public aspect FirstAspect {
 //    }
 
     // code advice around: it is like the before and after without the proceed !
-    void around(): pc1(){
-        System.out.println("Before Main using Around advice !!");
-        proceed(); // the excution of the main method :
-        System.out.println("After Main using Around advice !!");
-    }
+//    void around(): pc1(){
+//        System.out.println("Before Main using Around advice !!");
+//        proceed(); // the excution of the main method :
+//        System.out.println("After Main using Around advice !!");
+//    }
 }
