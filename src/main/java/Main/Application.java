@@ -22,17 +22,21 @@ public class Application {
         iMetierCompte.addCompte(new Compte(code, solde));
 
         while(true){
-            System.out.println("Type de l'operation :");
-            String typeOperation = scanner.nextLine();
-            System.out.println("Montant :");
-            double montant = scanner.nextDouble();
-            if(typeOperation.equals("v")){
-                iMetierCompte.verser(code,montant);
-            }else if (typeOperation.equals("r")){
-                iMetierCompte.retirer(code,montant);
+            try {
+                System.out.println("Type de l'operation :");
+                String typeOperation = scanner.nextLine();
+                System.out.println("Montant :");
+                double montant = scanner.nextDouble();
+                if(typeOperation.equals("v")){
+                    iMetierCompte.verser(code,montant);
+                }else if (typeOperation.equals("r")){
+                    iMetierCompte.retirer(code,montant);
+                }
+                Compte com = iMetierCompte.consulterCompte(code);
+                System.out.println("Etat de compte : " + com.toString());
+            } catch (Exception e) {
+                throw new RuntimeException(e);
             }
-            Compte com = iMetierCompte.consulterCompte(code);
-            System.out.println("Etat de compte : " + com.toString());
         }
     }
 }
