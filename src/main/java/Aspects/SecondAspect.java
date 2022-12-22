@@ -7,7 +7,7 @@ import org.aspectj.lang.annotation.*;
 @Aspect
 public class SecondAspect {
 
-    @Pointcut("execution(* Main.Application.main(..))")
+    @Pointcut("execution(* Main.Application.ma(..))")
     public void pc1(){}
 
 //    @Before("pc1()")

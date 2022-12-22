@@ -1,7 +1,7 @@
 package Aspects;
 
 public aspect FirstAspect {
-    pointcut pc1(): execution(* Main.Application.main(..));
+    pointcut pc1(): execution(* Main.Application.m(..));
 
     // code advice
 //    before(): pc1(){
