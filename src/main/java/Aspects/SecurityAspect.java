@@ -25,7 +25,7 @@ public class SecurityAspect {
             joinPoint.proceed();
         }
         else
-            throw new RuntimeException("Sorry you do not have Access to the application !!");
+            System.out.println("Sorry you do not have Access to the application !!");
     }
 
 }
