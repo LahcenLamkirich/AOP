@@ -27,7 +27,8 @@ public class Application {
                 String typeOperation = scanner.next();
                 System.out.println("Montant :");
                 double montant = scanner.nextDouble();
-                if(typeOperation.equals("q")) break;
+                if(typeOperation.equals("quitter"))
+                    break;
                 if(typeOperation.equals("v")){
                     iMetierCompte.verser(code,montant);
                 }else if (typeOperation.equals("r")){
