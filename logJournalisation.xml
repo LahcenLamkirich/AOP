@@ -2,9 +2,9 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2022-12-22T19:33:21.012384400Z</date>
-  <millis>1671737601012</millis>
-  <nanos>384400</nanos>
+  <date>2022-12-22T20:04:29.444941Z</date>
+  <millis>1671739469444</millis>
+  <nanos>941000</nanos>
   <sequence>0</sequence>
   <logger>Aspects.LogginAspect</logger>
   <level>INFO</level>
@@ -14,9 +14,9 @@
   <message>Before The execution of the Method : void Metier.IMetierCompteImpl.addCompte(Compte)</message>
 </record>
 <record>
-  <date>2022-12-22T19:33:21.022383100Z</date>
-  <millis>1671737601022</millis>
-  <nanos>383100</nanos>
+  <date>2022-12-22T20:04:29.449940700Z</date>
+  <millis>1671739469449</millis>
+  <nanos>940700</nanos>
   <sequence>1</sequence>
   <logger>Aspects.LogginAspect</logger>
   <level>INFO</level>
@@ -26,9 +26,9 @@
   <message>Before The execution of the Method : Long Metier.Compte.getCode()</message>
 </record>
 <record>
-  <date>2022-12-22T19:33:21.022383100Z</date>
-  <millis>1671737601022</millis>
-  <nanos>383100</nanos>
+  <date>2022-12-22T20:04:29.449940700Z</date>
+  <millis>1671739469449</millis>
+  <nanos>940700</nanos>
   <sequence>2</sequence>
   <logger>Aspects.LogginAspect</logger>
   <level>INFO</level>
@@ -38,21 +38,21 @@
   <message>After The execution of the Method : Long Metier.Compte.getCode()</message>
 </record>
 <record>
-  <date>2022-12-22T19:33:21.023381400Z</date>
-  <millis>1671737601023</millis>
-  <nanos>381400</nanos>
+  <date>2022-12-22T20:04:29.449940700Z</date>
+  <millis>1671739469449</millis>
+  <nanos>940700</nanos>
   <sequence>3</sequence>
   <logger>Aspects.LogginAspect</logger>
   <level>INFO</level>
   <class>Aspects.LogginAspect</class>
   <method>AfterApp</method>
   <thread>1</thread>
-  <message>La durree de l'execution de la methode Long Metier.Compte.getCode() est : 1</message>
+  <message>La durree de l'execution de la methode Long Metier.Compte.getCode() est : 0</message>
 </record>
 <record>
-  <date>2022-12-22T19:33:21.023381400Z</date>
-  <millis>1671737601023</millis>
-  <nanos>381400</nanos>
+  <date>2022-12-22T20:04:29.450940600Z</date>
+  <millis>1671739469450</millis>
+  <nanos>940600</nanos>
   <sequence>4</sequence>
   <logger>Aspects.LogginAspect</logger>
   <level>INFO</level>
@@ -62,15 +62,267 @@
   <message>After The execution of the Method : void Metier.IMetierCompteImpl.addCompte(Compte)</message>
 </record>
 <record>
-  <date>2022-12-22T19:33:21.024382600Z</date>
-  <millis>1671737601024</millis>
-  <nanos>382600</nanos>
+  <date>2022-12-22T20:04:29.450940600Z</date>
+  <millis>1671739469450</millis>
+  <nanos>940600</nanos>
   <sequence>5</sequence>
   <logger>Aspects.LogginAspect</logger>
   <level>INFO</level>
   <class>Aspects.LogginAspect</class>
   <method>AfterApp</method>
   <thread>1</thread>
-  <message>La durree de l'execution de la methode void Metier.IMetierCompteImpl.addCompte(Compte) est : 2</message>
+  <message>La durree de l'execution de la methode void Metier.IMetierCompteImpl.addCompte(Compte) est : 1</message>
+</record>
+<record>
+  <date>2022-12-22T20:04:34.665592600Z</date>
+  <millis>1671739474665</millis>
+  <nanos>592600</nanos>
+  <sequence>6</sequence>
+  <logger>Aspects.LogginAspect</logger>
+  <level>INFO</level>
+  <class>Aspects.LogginAspect</class>
+  <method>beforeApp</method>
+  <thread>1</thread>
+  <message>Before The execution of the Method : void Metier.IMetierCompteImpl.verser(Long, double)</message>
+</record>
+<record>
+  <date>2022-12-22T20:04:34.665592600Z</date>
+  <millis>1671739474665</millis>
+  <nanos>592600</nanos>
+  <sequence>7</sequence>
+  <logger>Aspects.LogginAspect</logger>
+  <level>INFO</level>
+  <class>Aspects.LogginAspect</class>
+  <method>beforeApp</method>
+  <thread>1</thread>
+  <message>Before The execution of the Method : double Metier.Compte.getSolde()</message>
+</record>
+<record>
+  <date>2022-12-22T20:04:34.665592600Z</date>
+  <millis>1671739474665</millis>
+  <nanos>592600</nanos>
+  <sequence>8</sequence>
+  <logger>Aspects.LogginAspect</logger>
+  <level>INFO</level>
+  <class>Aspects.LogginAspect</class>
+  <method>AfterApp</method>
+  <thread>1</thread>
+  <message>After The execution of the Method : double Metier.Compte.getSolde()</message>
+</record>
+<record>
+  <date>2022-12-22T20:04:34.665592600Z</date>
+  <millis>1671739474665</millis>
+  <nanos>592600</nanos>
+  <sequence>9</sequence>
+  <logger>Aspects.LogginAspect</logger>
+  <level>INFO</level>
+  <class>Aspects.LogginAspect</class>
+  <method>AfterApp</method>
+  <thread>1</thread>
+  <message>La durree de l'execution de la methode double Metier.Compte.getSolde() est : 0</message>
+</record>
+<record>
+  <date>2022-12-22T20:04:34.666595700Z</date>
+  <millis>1671739474666</millis>
+  <nanos>595700</nanos>
+  <sequence>10</sequence>
+  <logger>Aspects.LogginAspect</logger>
+  <level>INFO</level>
+  <class>Aspects.LogginAspect</class>
+  <method>beforeApp</method>
+  <thread>1</thread>
+  <message>Before The execution of the Method : void Metier.Compte.setSolde(double)</message>
+</record>
+<record>
+  <date>2022-12-22T20:04:34.666595700Z</date>
+  <millis>1671739474666</millis>
+  <nanos>595700</nanos>
+  <sequence>11</sequence>
+  <logger>Aspects.LogginAspect</logger>
+  <level>INFO</level>
+  <class>Aspects.LogginAspect</class>
+  <method>AfterApp</method>
+  <thread>1</thread>
+  <message>After The execution of the Method : void Metier.Compte.setSolde(double)</message>
+</record>
+<record>
+  <date>2022-12-22T20:04:34.666595700Z</date>
+  <millis>1671739474666</millis>
+  <nanos>595700</nanos>
+  <sequence>12</sequence>
+  <logger>Aspects.LogginAspect</logger>
+  <level>INFO</level>
+  <class>Aspects.LogginAspect</class>
+  <method>AfterApp</method>
+  <thread>1</thread>
+  <message>La durree de l'execution de la methode void Metier.Compte.setSolde(double) est : 0</message>
+</record>
+<record>
+  <date>2022-12-22T20:04:34.666595700Z</date>
+  <millis>1671739474666</millis>
+  <nanos>595700</nanos>
+  <sequence>13</sequence>
+  <logger>Aspects.LogginAspect</logger>
+  <level>INFO</level>
+  <class>Aspects.LogginAspect</class>
+  <method>AfterApp</method>
+  <thread>1</thread>
+  <message>After The execution of the Method : void Metier.IMetierCompteImpl.verser(Long, double)</message>
+</record>
+<record>
+  <date>2022-12-22T20:04:34.666595700Z</date>
+  <millis>1671739474666</millis>
+  <nanos>595700</nanos>
+  <sequence>14</sequence>
+  <logger>Aspects.LogginAspect</logger>
+  <level>INFO</level>
+  <class>Aspects.LogginAspect</class>
+  <method>AfterApp</method>
+  <thread>1</thread>
+  <message>La durree de l'execution de la methode void Metier.IMetierCompteImpl.verser(Long, double) est : 0</message>
+</record>
+<record>
+  <date>2022-12-22T20:04:34.667593600Z</date>
+  <millis>1671739474667</millis>
+  <nanos>593600</nanos>
+  <sequence>15</sequence>
+  <logger>Aspects.LogginAspect</logger>
+  <level>INFO</level>
+  <class>Aspects.LogginAspect</class>
+  <method>beforeApp</method>
+  <thread>1</thread>
+  <message>Before The execution of the Method : Compte Metier.IMetierCompteImpl.consulterCompte(Long)</message>
+</record>
+<record>
+  <date>2022-12-22T20:04:34.667593600Z</date>
+  <millis>1671739474667</millis>
+  <nanos>593600</nanos>
+  <sequence>16</sequence>
+  <logger>Aspects.LogginAspect</logger>
+  <level>INFO</level>
+  <class>Aspects.LogginAspect</class>
+  <method>AfterApp</method>
+  <thread>1</thread>
+  <message>After The execution of the Method : Compte Metier.IMetierCompteImpl.consulterCompte(Long)</message>
+</record>
+<record>
+  <date>2022-12-22T20:04:34.667593600Z</date>
+  <millis>1671739474667</millis>
+  <nanos>593600</nanos>
+  <sequence>17</sequence>
+  <logger>Aspects.LogginAspect</logger>
+  <level>INFO</level>
+  <class>Aspects.LogginAspect</class>
+  <method>AfterApp</method>
+  <thread>1</thread>
+  <message>La durree de l'execution de la methode Compte Metier.IMetierCompteImpl.consulterCompte(Long) est : 0</message>
+</record>
+<record>
+  <date>2022-12-22T20:04:34.667593600Z</date>
+  <millis>1671739474667</millis>
+  <nanos>593600</nanos>
+  <sequence>18</sequence>
+  <logger>Aspects.LogginAspect</logger>
+  <level>INFO</level>
+  <class>Aspects.LogginAspect</class>
+  <method>beforeApp</method>
+  <thread>1</thread>
+  <message>Before The execution of the Method : String Metier.Compte.toString()</message>
+</record>
+<record>
+  <date>2022-12-22T20:04:34.668595500Z</date>
+  <millis>1671739474668</millis>
+  <nanos>595500</nanos>
+  <sequence>19</sequence>
+  <logger>Aspects.LogginAspect</logger>
+  <level>INFO</level>
+  <class>Aspects.LogginAspect</class>
+  <method>AfterApp</method>
+  <thread>1</thread>
+  <message>After The execution of the Method : String Metier.Compte.toString()</message>
+</record>
+<record>
+  <date>2022-12-22T20:04:34.668595500Z</date>
+  <millis>1671739474668</millis>
+  <nanos>595500</nanos>
+  <sequence>20</sequence>
+  <logger>Aspects.LogginAspect</logger>
+  <level>INFO</level>
+  <class>Aspects.LogginAspect</class>
+  <method>AfterApp</method>
+  <thread>1</thread>
+  <message>La durree de l'execution de la methode String Metier.Compte.toString() est : 1</message>
+</record>
+<record>
+  <date>2022-12-22T20:04:39.042444500Z</date>
+  <millis>1671739479042</millis>
+  <nanos>444500</nanos>
+  <sequence>21</sequence>
+  <logger>Aspects.LogginAspect</logger>
+  <level>INFO</level>
+  <class>Aspects.LogginAspect</class>
+  <method>beforeApp</method>
+  <thread>1</thread>
+  <message>Before The execution of the Method : Compte Metier.IMetierCompteImpl.consulterCompte(Long)</message>
+</record>
+<record>
+  <date>2022-12-22T20:04:39.042444500Z</date>
+  <millis>1671739479042</millis>
+  <nanos>444500</nanos>
+  <sequence>22</sequence>
+  <logger>Aspects.LogginAspect</logger>
+  <level>INFO</level>
+  <class>Aspects.LogginAspect</class>
+  <method>AfterApp</method>
+  <thread>1</thread>
+  <message>After The execution of the Method : Compte Metier.IMetierCompteImpl.consulterCompte(Long)</message>
+</record>
+<record>
+  <date>2022-12-22T20:04:39.043453600Z</date>
+  <millis>1671739479043</millis>
+  <nanos>453600</nanos>
+  <sequence>23</sequence>
+  <logger>Aspects.LogginAspect</logger>
+  <level>INFO</level>
+  <class>Aspects.LogginAspect</class>
+  <method>AfterApp</method>
+  <thread>1</thread>
+  <message>La durree de l'execution de la methode Compte Metier.IMetierCompteImpl.consulterCompte(Long) est : 1</message>
+</record>
+<record>
+  <date>2022-12-22T20:04:39.043453600Z</date>
+  <millis>1671739479043</millis>
+  <nanos>453600</nanos>
+  <sequence>24</sequence>
+  <logger>Aspects.LogginAspect</logger>
+  <level>INFO</level>
+  <class>Aspects.LogginAspect</class>
+  <method>beforeApp</method>
+  <thread>1</thread>
+  <message>Before The execution of the Method : double Metier.Compte.getSolde()</message>
+</record>
+<record>
+  <date>2022-12-22T20:04:39.043453600Z</date>
+  <millis>1671739479043</millis>
+  <nanos>453600</nanos>
+  <sequence>25</sequence>
+  <logger>Aspects.LogginAspect</logger>
+  <level>INFO</level>
+  <class>Aspects.LogginAspect</class>
+  <method>AfterApp</method>
+  <thread>1</thread>
+  <message>After The execution of the Method : double Metier.Compte.getSolde()</message>
+</record>
+<record>
+  <date>2022-12-22T20:04:39.043453600Z</date>
+  <millis>1671739479043</millis>
+  <nanos>453600</nanos>
+  <sequence>26</sequence>
+  <logger>Aspects.LogginAspect</logger>
+  <level>INFO</level>
+  <class>Aspects.LogginAspect</class>
+  <method>AfterApp</method>
+  <thread>1</thread>
+  <message>La durree de l'execution de la methode double Metier.Compte.getSolde() est : 0</message>
 </record>
 </log>
